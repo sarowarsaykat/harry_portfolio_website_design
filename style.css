@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header section start*/
+.header{
+    background-image: url('img/heading_img_1.jpg');
+   
+    height:100%;
+    width:100%;
+    background-size: cover; 
+}
+
+.navbar-nav li a{
+    color: white; 
+}
+.navbar-nav li a:hover{
+    color: #F50963;
+}
+.search a i{
+    color:white;
+}
+
+.heding-text{
+   padding-top: 180px;
+}
+.text-1{
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.text-2{
+    font-size: 53px;
+}
+.form-rounded{
+    background-color:white;
+    border-radius: 50px;
+    padding:5px;
+}
+.form-control,.form-select{
+    border: 0px !important;
+}
+input,select{
+    margin:0px;
+}
+.form-select selected{font-weight: bolder;}
+.header-button{
+    background-color: #F50963;
+    color: white;
+    padding: 10px 24px;
+    border: 0px !important;
+    border-radius: 25px;
+    font-size: 14px;
+
+}
+.navbar .nav-item{
+    margin-left:20px;
+    margin-right:20px;
+}
+/*header section end*/
+
+/*about us start*/
+
+.about_us{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.harry_img{
+    width: 400px;
+    height: 540px;
+    
+}
+.custom-font-design{
+    font-size:50px !important;
+    font-weight: bold;
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about_us_text{
+    color: #F50963;
+}
+.about_us_text_2{
+    font-size: 60px;
+    margin-top: 10px;
+}
+.about_us_text_3{
+    font-size: 20px;
+}
+.about_us_img{
+    width: 30px;
+    height: 30px;
+}
+.image-relative{
+    padding:0px;
+    position:relative;
+}
+.year-exp{
+    top:350px;
+    right: 120px;
+    position:absolute;
+    background:white;
+    height: 24vh;
+    width: 8rem;
+    text-align: center;
+}
+/*about us end*/
+
+/*fun facts start*/
+.fun_fact{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.fun_facts{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url('img/2.png');
+    height: 200px;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+.fun_facts_bottom{
+    position: absolute;
+    top: 17px;
+    left: 997px;
+    background-image: url('img/1.png');
+    height: 200px;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+ /* fun facts end */
+
+
+/* service start */
+.service{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.service_title{
+    font-size: 45px;
+}
+.service_title_color{
+    color: #F50963;
+}
+.all_service{
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    
+}
+.service_hover:hover{
+    background-color: #6364DB;
+    color: white;
+}
+
+/* service end */
+
+
+/*seminar schedules start */
+.schedule{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.schedules{
+    background-color: #F0F0F5;
+    width: 100%;
+    height: 100%;
+}
+.seminar_title{
+    font-size: 42px;
+}
+.seminar_title_1{
+    color: #F50963;
+}
+.seminar_img_1{
+    width: 20px;
+    height: 20px;
+}
+.hovered-div:hover{
+    zoom:120%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*seminar schedules end */
+
+/* One Team start */
+.one_team{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.one_time_title{
+    font-size: 42px;
+}
+.our_team_img{
+    width: 100%;
+    height: 50vh;
+}
+.join_team{
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+
+/* One Team end */
+
+/* faq section start */
+.faq-head{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* faq section end */
+
+/* Recent work start */
+.recent_work{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.recent_work_title{
+    font-size: 42px;
+    margin-top: 70px;
+    color: white;
+    font-weight: bold;
+}
+.recent_work_title_1{
+    color: #F50963;
+}
+.work_text{
+    font-size: 13px;
+}
+.recent_work_img{
+    width: 100%;
+    height: 65vh;
+}
+.recent_work_img_1{
+    width: 100%;
+    height: 65vh;
+}
+.recent_work_img_2{
+    width: 100%;
+    height: 65vh;
+}
+/* Recent work end */
+
+/* Customers section start */
+.customer{
+    background-color:#6364DB ;
+    width: 100%;
+    height: 100%;
+}
+.customers_img{
+    width: 50px;
+    height: 50px;
+}
+.customers_img_title{
+    font-size: 10px;
+}
+/* Customers section end */
+
+/* Latest_articles start */
+.latest_articles{
+    width: 100%;
+    height: 100%;
+}
+.latest_articles_title_1{
+     font-size: 42px;
+     padding-bottom: 20px;
+}
+
+.latest_articles_title_1{
+    color: #F50963;
+}
+.card_size{
+    min-height: 220px;
+}
+/* Latest_articles end */
+
+/* footer start */
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: #1D1D4C;
+}
+.fa-phone{
+    color: #F50963;
+}
+.social-media i:hover{
+    color: #F50963;
+}
+.foot-nav-link li a{
+    text-decoration: none;
+    color: white;
+}
+.foot-nav-link li a:hover{
+    color: #F50963;
+}
+
+.qrcod{
+    width: 50px;
+    height: 50px;
+}
+.copyright{
+    color: #F50963;
+}
+/* footer end */
+@media only screen and (max-width: 480px) {
+    .recent_work_img,
+    .recent_work_img_1,
+    .recent_work_img_2,
+    .our_team_img{
+        height:250px;
+    }
+    .year-exp{
+        top:240px;
+        right: 10px;
+        position:absolute;
+        background:white;
+        height: 24vh;
+        width: 8rem;
+        text-align: center;
+    }
+}
